@@ -1,3 +1,10 @@
+//Rick Momoi
+//Sasayaki7
+//5/28/2021
+
+//Made with JavaScript, HTML and CSS
+//Project I wanted to do since 7/8th grade
+
 let lifeArr = [];
 let checkCell = [];
 let id = 0;
