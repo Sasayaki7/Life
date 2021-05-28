@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+
+body{
+    background-color: black;
+}
+
+
+header{
+    background: rgb(186,212,224);
+    background: linear-gradient(0deg, rgba(186,212,224,1) 37%, rgba(175,18,205,0.7203081916360294) 91%);
+    height: 80px;
+    color: silver;
+}
+
+
+header p{
+    margin-left: 50px;
+}
+
+header p span{
+    color: darkblue;
+    font-size: 35pt;
+
+}
+
+.life-container{
+    display: grid;
+    width: 1200px;
+    height: 700px;
+    overflow: auto;
+    margin: auto;
+    border: blue groove 5px;
+}
+
+.life-cell{
+    border: 1px solid white;
+    background-color: #333333;
+    height: 20px;
+    width: 20px;
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.sim-button{
+    margin-top: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    width: 80px;
+    font-size: 15pt;
+    height: 40px;
+    border: groove white;
+}
+
+.iteration-slider{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iteration-slider label{
+    color: white;
+    font-size: 18pt;
+}
+
+
+
+
+.cycle-counter{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+
+.instructions{
+    color: yellow;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+h2{
+    font-size: 40pt;
+    margin-top: 25px;
+}
+
+.instructions p{
+    margin-top: 15px;
+    font-size: 20pt;
+}
+
+.instructions ul li{
+    margin-top: 5px;
+    font-size: 14pt;
+}
+
+.cell-on{
+    background-color:yellow;
+}
